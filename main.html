@@ -362,6 +362,22 @@
 <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
 <script>
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            e.preventDefault();
+
+            const target = document.querySelector(this.getAttribute('href'));
+            const offset = 6 * 16; // 12rem → px (rem은 기본 폰트 크기 16px 기준)
+            const targetPosition = target.getBoundingClientRect().top + window.pageYOffset - offset;
+
+            window.scrollTo({
+            top: targetPosition,
+            behavior: 'smooth'
+            });
+        });
+    });
+</script>
+<script>
 document.addEventListener('DOMContentLoaded', function () {
     let isPlaying = true;
 
@@ -372,10 +388,10 @@ document.addEventListener('DOMContentLoaded', function () {
         },
         loop: true,
         speed: 800,
-        // autoplay: {
-        //     delay: 3000,
-        //     disableOnInteraction: false,
-        // },
+        autoplay: {
+            delay: 3000,
+            disableOnInteraction: false,
+        },
         navigation: {
             nextEl: '.btn-next',
             prevEl: '.btn-prev'
