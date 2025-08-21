@@ -202,6 +202,11 @@ main::after {display: block; width: 89.7rem; height: 25.2rem; right: 0; top: 24r
 }
 @media screen and (max-width: 1440px) {
     .control-area .swiper-pagination button {width: 4.8rem; height: 4.8rem;}
+    .history-content-wrap {flex-direction: column; gap: 2rem;}
+    .history-left-wrap {width: 100%; flex-direction: row-reverse; align-items: flex-start; justify-content: flex-end;}
+    .history-list li.history-year:first-child > a {padding: 2.4rem 0;}
+    .history-img {display: none;}
+    .history-content-wrap .section-script br.pc-only {display: none;}
 }
 @media screen and (max-width: 1280px) {
     section {width: calc(100% - 4rem); margin: 6rem 2rem 0;}
@@ -228,10 +233,6 @@ main::after {display: block; width: 89.7rem; height: 25.2rem; right: 0; top: 24r
     .isp-title-wrap {margin-bottom: 2rem;}
     .isp-slide {gap: 2rem;}
     .isp-img {margin-bottom: 0;}
-    .history-content-wrap {flex-direction: column; gap: 2rem;}
-    .history-left-wrap {width: 100%; flex-direction: row-reverse; align-items: flex-start; justify-content: flex-end;}
-    .history-list li.history-year:first-child > a {padding: 2.4rem 0;}
-    .history-img {display: none;}
     .si-mobile-part .si-part03 {background-size: auto 50%;}
     .si-mobile-part .si-part04 {background-size: auto 80%;}
 }
