@@ -145,7 +145,7 @@ main::after {display: block; width: 89.7rem; height: 25.2rem; right: 0; top: 24r
 .partners-slide img { pointer-events: none; user-select: none; max-height: 4.4rem;}
 
 /* Floating button */
-.floating-wrap {position: fixed; bottom: 6rem; right: 3.5rem; display: flex; flex-direction: column; align-items: center; gap: 2rem; z-index: 99;}
+.floating-wrap {position: fixed; bottom: 6rem; right: 3.5rem; display: flex; flex-direction: column; align-items: flex-end; gap: 2rem; z-index: 99;}
 .floating-btn {width: 7.8rem; height: 7.8rem; border-radius: 8.2rem; box-shadow: 0 0 20px #703A1E18; display: flex; align-items: center; justify-content: center;}
 .floating-btn span {font-size: 1.4rem; font-weight: 600; text-align: center;}
 .floating-btn.contact {background: #fff; transition: all .3s; display: flex; align-items: center; gap: 2.6rem; transition: all .3s;}
@@ -155,7 +155,7 @@ main::after {display: block; width: 89.7rem; height: 25.2rem; right: 0; top: 24r
 .contact-open .contact {display: flex; flex-direction: column; gap: 0.4rem; justify-content: center; align-items: center;}
 .floating-btn.contact:hover {width: auto; padding: 0 2.6rem;}
 .floating-btn.contact:hover .contact-open {display: flex;}
-.floating-btn.top {width: 7.4rem; height: 7.4rem; background: #F37723 url(../images/ic_top.svg) no-repeat center center; background-size: 3rem 3rem;}
+.floating-btn.top {background: #F37723 url(../images/ic_top.svg) no-repeat center center; background-size: 3rem 3rem;}
 .toast {position: fixed; bottom: 4rem; right: 3.5rem; background: #333; color: #fff; padding: 0.8rem 1.4rem; border-radius: 6px; font-size: 1.4rem; opacity: 0; transition: opacity 0.4s, transform 0.4s; transform: translateY(20px); z-index: 9999;}
 .toast.show {opacity: 1; transform: translateY(0);}
 
@@ -236,7 +236,7 @@ main::after {display: block; width: 89.7rem; height: 25.2rem; right: 0; top: 24r
 @media screen and (max-width: 720px) {
     .floating-wrap {gap: 1.6rem;}
     .floating-btn {width: 6.4rem; height: 6.4rem;}
-    .floating-btn.top {width: 6.4rem; height: 6.4rem;}
+    /* .floating-btn.top {width: 6.4rem; height: 6.4rem;} */
     .contact-fold img {width: 2.4rem; height: 2.4rem;}
     .si-wrapper.mobilestyle .si-mobile-part {flex-direction: column;}
     .si-mobile-part .si-part01 {width: 100%;}
