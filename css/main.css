@@ -126,7 +126,7 @@ main::after {display: block; width: 89.7rem; height: 25.2rem; right: 0; top: 24r
 /* History section */
 .history-content-wrap {display: flex; gap: 8rem;}
 .history-left-wrap {width: 62rem; max-width: 100%; display: flex; flex-direction: column; gap: 4rem;}
-.history-img {width: 62rem; border-radius: 3.2rem; overflow: hidden;}
+.history-img {width: 62rem; height: 59rem; border-radius: 3.2rem; overflow: hidden;}
 .history-img img {width: 100%; height: 100%;}
 .history-right-wrap {flex: 1;}
 .history-list {display: flex; flex-direction: column;}
