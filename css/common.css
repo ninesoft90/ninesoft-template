@@ -96,6 +96,13 @@ a {color: inherit; text-decoration: none;  cursor:pointer;}
 .colorWt {color: #fff;}
 .colorBk {color: #222;}
 
+br.pc-only {display: block;}
+
+@media screen and (max-width: 1280px) {
+    html {font-size: 8px;}
+	br.pc-only {display: none;}
+}
+
 /* margin */
 .mtop0 { margin-top: 0px !important; }
 .mtop5 { margin-top: 5px !important; }

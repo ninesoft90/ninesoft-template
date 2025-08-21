@@ -6,9 +6,18 @@
     <link rel="stylesheet" href="./css/common.css">
     <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="./css/font.css">
+    <link rel="stylesheet" href="./css/aos.css">
+    <link rel="stylesheet" href="./css/swiper-bundle.min.css">
+    <!-- SVG Favicon -->
+    <link rel="icon" href="./images/favicon.svg" type="image/svg+xml">
+    <!-- PNG fallback (IE/구형 브라우저) -->
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon.png">
 
     <script src="./js/jquery-3.7.0.min.js"></script>
-    <title>Ninesoft</title>
+    <script src="./js/main.js"></script>
+    <script src="./js/aos.js"></script>
+    <script src="./js/swiper-bundle.min.js"></script>
+    <title>나인소프트</title>
 </head>
 <body>
     <header id="header">
@@ -28,42 +37,42 @@
         </nav>
     </header>
     <main id="main">
-        <section id="hero">
+        <section id="hero" data-aos="fade-up" data-aos-duration="800">
             <div class="swiper heroSwiper">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide heroslide" data-slide="1">
                         <div class="heroslide-txt">
                             <h2 class="hero-title">정화조<br><em class="colorBlue">스마트 통합관리</em><br>시스템</h2>
-                            <p class="hero-txt">지자체에서 검증된 차세대 통합관리 솔루션<br>모바일 앱, 웹, 스마트 검침 장치의 완벽한 통합으로<br>효율적인 환경 관리 서비스를 제공합니다</p>
+                            <p class="hero-txt">지자체에서 검증된 차세대 통합관리 솔루션<br> 모바일 앱, 웹, 스마트 검침 장치의 완벽한 통합으로<br> 효율적인 환경 관리 서비스를 제공합니다.</p>
                             <a href="https://smarttank.kr/" class="hero-link" target="_blank">홈페이지 바로가기</a>
                         </div>
                     </div>
                     <div class="swiper-slide heroslide" data-slide="2">
                         <div class="heroslide-txt">
                             <h2 class="hero-title">공공기관 개발 실적</h2>
-                            <p class="hero-txt">한국생명공학연구원 / 취약계층 알림 시스템 등<br>다양한 공공기관 프로젝트를 통해 검증된 기술력으로<br>맞춤형 서비스를 제공합니다</p>
-                            <a href="#none" class="hero-download">회사소개서 다운로드</a>
+                            <p class="hero-txt">한국생명공학연구원 / 취약계층 알림 시스템 등<br> 다양한 공공기관 프로젝트를 통해 검증된 기술력으로<br> 맞춤형 서비스를 제공합니다.</p>
+                            <a href="./files/나인소프트소개서_ver01.pdf" class="hero-download" download target="_blank">회사소개서 다운로드</a>
                         </div>
                     </div>
                     <div class="swiper-slide heroslide" data-slide="3">
                         <div class="heroslide-txt">
                             <h2 class="hero-title">대기업 솔루션</h2>
-                            <p class="hero-txt">현대글로비스 유럽법인 IMP 고도화 사업 수행 등<br>축적된 경험을 바탕으로 기업 맞춤형 정보시스템과<br>디지털 전환을 성공적으로 지원합니다</p>
-                            <a href="#none" class="hero-download">회사소개서 다운로드</a>
+                            <p class="hero-txt">현대글로비스 유럽법인 IMP 고도화 사업 수행 등<br> 축적된 경험을 바탕으로 기업 맞춤형 정보시스템과<br> 디지털 전환을 성공적으로 지원합니다.</p>
+                            <a href="./files/나인소프트소개서_ver01.pdf" class="hero-download" download target="_blank">회사소개서 다운로드</a>
                         </div>
                     </div>
                     <div class="swiper-slide heroslide" data-slide="4">
                         <div class="heroslide-txt">
                             <h2 class="hero-title">공기업 개발 실적</h2>
-                            <p class="hero-txt">한전KDN, 한국서부발전 등 공기업 시스템 구축 경험으로<br>안정적이고 확장 가능한 IT 인프라를 구축하며<br>신뢰성 높은 솔루션을 제공합니다</p>
-                            <a href="#none" class="hero-download">회사소개서 다운로드</a>
+                            <p class="hero-txt">한전KDN, 한국서부발전 등 공기업 시스템 구축 경험으로<br> 안정적이고 확장 가능한 IT 인프라를 구축하며<br> 신뢰성 높은 솔루션을 제공합니다.</p>
+                            <a href="./files/나인소프트소개서_ver01.pdf" class="hero-download" download target="_blank">회사소개서 다운로드</a>
                         </div>
                     </div>
                     <div class="swiper-slide heroslide" data-slide="5">
                         <div class="heroslide-txt">
                             <h2 class="hero-title"><em class="colorOran">ISP 컨설팅</em> 전문기업</h2>
-                            <p class="hero-txt">한전KDN, 한국서부발전 등 공기업 시스템 구축 경험으로<br>안정적이고 확장 가능한 IT 인프라를 구축하며<br>신뢰성 높은 솔루션을 제공합니다</p>
-                            <a href="#none" class="hero-download">회사소개서 다운로드</a>
+                            <p class="hero-txt">체계적인 ISP 컨설팅을 통해 예산 효율성과 사업 목표 달성을 돕고,<br> 정보 시스템의 중장기 로드맵을 수립합니다.</p>
+                            <a href="./files/나인소프트소개서_ver01.pdf" class="hero-download" download target="_blank">회사소개서 다운로드</a>
                         </div>
                     </div>
                 </div>
@@ -80,7 +89,7 @@
             </div>
         </section>
 
-        <section id="section1">
+        <section id="section1" data-aos="fade-up" data-aos-duration="800" data-aos-delay="300">
             <div class="si-wrapper pcstyle">
                 <div class="si-left">
                     <div class="si-title-wrap">
@@ -93,7 +102,7 @@
                             <div class="si-tag">
                                 <span>#한국생명공학연구원<br>#K-BDS #KOBIC #BIO-EXPRESS</span>
                             </div>
-                            <h4 class="si-title">KOBIC 정보시스템 및 웹서비스 고도화 및 유지보수</h4>
+                            <h4 class="si-title">KOBIC 정보시스템 및 웹서비스<br> 고도화 및 유지보수</h4>
                         </div>
                     </div>
                 </div>
@@ -110,7 +119,7 @@
                                 <div class="si-tag">
                                     <span>#한전KDN<br>#제안관리시스템</span>
                                 </div>
-                                <h4 class="si-title">제안관리시스템 고도화 개발</h4>
+                                <h4 class="si-title">제안관리시스템<br> 고도화 개발</h4>
                             </div>
                             <div class="si-part04">
                                 <div class="si-tag">
@@ -134,7 +143,7 @@
                 <div class="si-mobile-part">
                     <div class="si-title-wrap">
                         <h3 class="section-title">시스템 통합(SI)</h3>
-                        <p class="section-script">빠르게 변화하는 IT 환경 속에서 복합적인 시스템 구성 요소를<br>통합적으로 이해하고 대응할 수 있는 나인소프트만의 기술력 바탕으로<br>설계부터 구축, 운영까지 아우르는 통합 IT 서비스를 제공합니다.</p>
+                        <p class="section-script">빠르게 변화하는 IT 환경 속에서 복합적인 시스템 구성 요소를<br class="pc-only">통합적으로 이해하고 대응할 수 있는 나인소프트만의 기술력 바탕으로<br class="pc-only">설계부터 구축, 운영까지 아우르는 통합 IT 서비스를 제공합니다.</p>
                     </div>
                     <div class="si-part02">
                         <div class="si-tag">
@@ -177,10 +186,10 @@
                 </div>
             </div>
         </section>
-        <section id="section2">
+        <section id="section2" data-aos="fade-up" data-aos-duration="800">
             <div class="solution-title-wrap">
                 <h3 class="section-title">솔루션</h3>
-                <p class="section-script">나인소프트는 자체 개발한 빅데이터 분석 솔루션을 통해 데이터 수집, 저장, 시각화 및 인사이트 도출까지 전 과정을 지원합니다. <br>다양한 산업에 적용 가능한 유연한 구조로 고객 맞춤형 분석 환경을 제공합니다.</p>
+                <p class="section-script">나인소프트는 자체 개발한 빅데이터 분석 솔루션을 통해 데이터 수집, 저장, 시각화 및 인사이트 도출까지 전 과정을 지원합니다. <br class="pc-only">다양한 산업에 적용 가능한 유연한 구조로 고객 맞춤형 분석 환경을 제공합니다.</p>
             </div>
             <div class="swiper solutionSwiper">
                 <div class="swiper-wrapper">
@@ -192,9 +201,9 @@
                             <div class="solution-text-inner">
                                 <span class="sol-tag">R&D Solution</span>
                                 <h4 class="sol-name">NineAX</h4>
-                                <p class="sol-text">폐쇄네트워크 생성형 AI 코딩 솔루션<br>공공기관 최적화 및 전자정부프레임워크 준수,<br>기관 데이터 기반 Fine-tuning</p>
+                                <p class="sol-text">폐쇄네트워크 생성형 AI 코딩 솔루션<br class="pc-only"> 공공기관 최적화 및 전자정부프레임워크 준수,<br class="pc-only"> 기관 데이터 기반 Fine-tuning</p>
                             </div>
-                            <a href="#none" class="sol-button download">IR자료 다운로드</a>
+                            <a href="./files/나인소프트 IR자료_v0.3.pdf" class="sol-button download" download target="_blank">IR자료 다운로드</a>
                         </div>
                     </div>
                     <div class="swiper-slide solutionslide" data-slide="1">
@@ -205,9 +214,9 @@
                             <div class="solution-text-inner">
                                 <span class="sol-tag">Ninesoft Solution</span>
                                 <h4 class="sol-name">정화조 스마트통합관리 시스템</h4>
-                                <p class="sol-text">모바일 기술과 ICT 기술을 활용해 정화조 현황을<br>효율적으로 관리하는 차세대 정화조 통합 관리 시스템</p>
+                                <p class="sol-text">모바일 기술과 ICT 기술을 활용해 정화조 현황을<br class="pc-only"> 효율적으로 관리하는 차세대 정화조 통합 관리 시스템</p>
                             </div>
-                            <a href="#none" class="sol-button link">홈페이지 바로가기</a>
+                            <a href="https://smarttank.kr/" class="sol-button link" target="_blank">홈페이지 바로가기</a>
                         </div>
                     </div>
                 </div>
@@ -220,7 +229,7 @@
                 </div>
             </div>
         </section>
-        <section id="section3">
+        <section id="section3" data-aos="fade-up" data-aos-duration="800">
             <div class="isp-title-wrap">
                 <h3 class="section-title">정보화전략계획(ISP)</h3>
                 <p class="section-script">고객의 IT 환경을 진단하고 최적의 정보화 전략을 제시합니다.<br>체계적인 ISP 컨설팅을 통해 예산 효율성과 사업 목표 달성을 돕고, 정보 시스템의 중장기 로드맵을 수립합니다.</p>
@@ -233,7 +242,7 @@
                             <span class="isp-icon icon01"></span>
                         </div>
                         <h4 class="isp-title"><em class="colorOran">세종교육청 학교지원본부</em><br>학교통합지원시스템 구축 ISP 수립</h4>
-                        <p class="isp-text">학교지원업무 One-stop 통합시스템 구축으로 행정업무효율화,<br>AI 솔루션 도입 및 신규 서비스 개발</p>
+                        <p class="isp-text">학교지원업무 One-stop 통합시스템 구축으로 행정업무효율화,<br class="pc-only"> AI 솔루션 도입 및 신규 서비스 개발</p>
                     </li>
                     <li class="isp-item">
                         <div class="isp-img">
@@ -241,7 +250,7 @@
                             <span class="isp-icon icon02"></span>
                         </div>
                         <h4 class="isp-title"><em class="colorOran">시흥시</em> 통합주차정보시스템<br>ISP 수립</h4>
-                        <p class="isp-text">PEST 분석과 선진사례 조사를 통해 정책적 방향성과 기술 환경 진단,<br>주차정보를 통합·연계할 수 있는 스마트 주차관리 플랫폼의 구성 방향 마련</p>
+                        <p class="isp-text">PEST 분석과 선진사례 조사를 통해 정책적 방향성과 기술 환경 진단,<br class="pc-only"> 주차정보를 통합·연계할 수 있는 스마트 주차관리 플랫폼의 구성 방향 마련</p>
                     </li>
                     <li class="isp-item">
                         <div class="isp-img">
@@ -249,16 +258,16 @@
                             <span class="isp-icon icon03"></span>
                         </div>
                         <h4 class="isp-title"><em class="colorOran">국토교통부</em> 바닥충격음 성능검사<br>정보화 시스템 구축을 위한 ISP 수립</h4>
-                        <p class="isp-text">공동주택 층간소음 문제 해소를 위한 바닥충격음 성능검사 제도의 효율적 운영을 위한<br>정보화전략계획(ISP) 수립</p>
+                        <p class="isp-text">공동주택 층간소음 문제 해소를 위한 바닥충격음 성능검사 제도의 효율적 운영을 위한<br class="pc-only"> 정보화전략계획(ISP) 수립</p>
                     </li>
                 </ul>
             </div>
         </section>
-        <section id="section4">
+        <section id="section4" data-aos="fade-up" data-aos-duration="800">
             <h3 class="section-title">연혁</h3>
             <div class="history-content-wrap">
                 <div class="history-left-wrap">
-                    <p class="section-script">2021년 창립 이래 한 걸음 한 걸음 쌓아온 기술력과 경험은<br>고객과의 신뢰를 바탕으로 계속 확장되고 있습니다.</p>
+                    <p class="section-script">2021년 창립 이래 한 걸음 한 걸음 쌓아온 기술력과 경험은<br class="pc-only"> 고객과의 신뢰를 바탕으로 계속 확장되고 있습니다.</p>
                     <div class="history-img">
                         <img src="./images/history_img1.png" alt="연혁">
                     </div>
@@ -268,18 +277,18 @@
                         <li class="history-year">
                             <a href="#none">2025</a>
                             <ul class="history-month">
-                                <li><em class="colorOran">10</em><span>2024년 학교통합지원시스템 구축 방안 마련을 위한 ISP</span></li>
-                                <li><em class="colorOran">10</em><span>2024년 조폐공사 지급결제플랫폼 재해복구센터 고도화 컨설팅 용역(참여)</span></li>
+                                <li><em class="colorOran">04</em><span>2025년 KOBIC 국가 바이오 데이터 스테이션 체계구축 (4단계)</span></li>
                             </ul>
                         </li>
                         <li class="history-year">
                             <a href="#none">2024</a>
                             <ul class="history-month">
                                 <li><em class="colorOran">10</em><span>2024년 학교통합지원시스템 구축 방안 마련을 위한 ISP</span></li>
-                                <li><em class="colorOran">10</em><span>2024년 조폐공사 지급결제플랫폼 재해복구센터 고도화 컨설팅 용역(참여)</span></li>
+                                <li><em class="colorOran">09</em><span>2024년 조폐공사 지급결제플랫폼 재해복구센터 고도화 컨설팅 용역(참여)</span></li>
                                 <li><em class="colorOran">09</em><span>2024년 행정안전부 모바일 신분증 시스템 고도화(컨설팅 용역)</span></li>
                                 <li><em class="colorOran">08</em><span>2024년 서부발전 연구개발통합관리시스템 웹표준화 및 개선</span></li>
                                 <li><em class="colorOran">07</em><span>2024년 MVDC 배전망 운영시스템용 미들웨어 및 사용자UI 개발</span></li>
+                                <li><em class="colorOran">07</em><span>2024년 KOBIC 국가 바이오 데이터 스테이션 체계구축 (3단계)</span></li>
                                 <li><em class="colorOran">06</em><span>2024년 국토부 바닥충격음 성능검사 정보화 시스템 전략계획(ISP)</span></li>
                                 <li><em class="colorOran">05</em><span>2027년 충청권 하계세계대학경기대회 ISP 수립(참여)</span></li>
                             </ul>
@@ -287,22 +296,29 @@
                         <li class="history-year">
                             <a href="#none">2023</a>
                             <ul class="history-month">
-                                <li><em class="colorOran">10</em><span>2024년 학교통합지원시스템 구축 방안 마련을 위한 ISP</span></li>
-                                <li><em class="colorOran">10</em><span>2024년 조폐공사 지급결제플랫폼 재해복구센터 고도화 컨설팅 용역(참여)</span></li>
+                                <li><em class="colorOran">12</em><span>2023년 한전 KDN 제안관리시스템 고도화 개발</span></li>
+                                <li><em class="colorOran">09</em><span>2023년 MVDC 배전망 운영시스템용 DB관리시스템</span></li>
+                                <li><em class="colorOran">08</em><span>2023 현대 글로비스 유럽법인 IMP 시스템 개선 프로젝트</span></li>
+                                <li><em class="colorOran">07</em><span>디지털식품클러스터 구축 정보화전략계획(ISP)</span></li>
+                                <li><em class="colorOran">06</em><span>통합주차정보시스템 구축 정보화전략계획(ISP) 수립 용역</span></li>
+                                <li><em class="colorOran">05</em><span>2023년 KOBIC 정보시스템 및 웹서비스 고도화 및 유지보수 2차</span></li>
                             </ul>
                         </li>
                         <li class="history-year">
                             <a href="#none">2022</a>
                             <ul class="history-month">
-                                <li><em class="colorOran">10</em><span>2024년 학교통합지원시스템 구축 방안 마련을 위한 ISP</span></li>
-                                <li><em class="colorOran">10</em><span>2024년 조폐공사 지급결제플랫폼 재해복구센터 고도화 컨설팅 용역(참여)</span></li>
+                                <li><em class="colorOran">08</em><span>2022년 기재부 협동조합 시스템 재구축 사업</span></li>
+                                <li><em class="colorOran">08</em><span>고흥군 스마트 현장검침 시스템 구축</span></li>
+                                <li><em class="colorOran">07</em><span>2022년 KOBIC 정보시스템 및 웹서비스 고도화 및 유지보수</span></li>
+                                <li><em class="colorOran">07</em><span>세스코 종합쇼핑몰 시스템 구축 및 유지보수</span></li>
+                                <li><em class="colorOran">05</em><span>청주시 취약계층 위기알림 서비스 시스템 구축</span></li>
+                                <li><em class="colorOran">01</em><span>부여군 시설물 현장조사 시스템 구축</span></li>
                             </ul>
                         </li>
                         <li class="history-year">
                             <a href="#none">2021</a>
                             <ul class="history-month">
-                                <li><em class="colorOran">10</em><span>2024년 학교통합지원시스템 구축 방안 마련을 위한 ISP</span></li>
-                                <li><em class="colorOran">10</em><span>2024년 조폐공사 지급결제플랫폼 재해복구센터 고도화 컨설팅 용역(참여)</span></li>
+                                <li><em class="colorOran">03</em><span>2021년 KOBIC 바이오익스프레스 워크벤치 시스템 개발 용역</span></li>
                             </ul>
                         </li>
                     </ul>
@@ -310,7 +326,7 @@
             </div>
 
         </section>
-        <section id="section5">
+        <section id="section5" data-aos="fade-up" data-aos-duration="800">
             <div class="partners-title-wrap">
                 <h3 class="section-title">파트너스</h3>
                 <p class="section-script">상생과 협력을 바탕으로 다양한 공공기관 및 기업과의 협업을 통해 시너지를 창출하고 있습니다.</p>
@@ -336,6 +352,26 @@
                 </ul>
             </div>
         </section>
+        <div class="floating-wrap">
+            <div class="toast"></div>
+            <a href="#none" class="floating-btn contact">
+                <div class="contact-fold">
+                    <img src="./images/ic_message.svg" alt="문의">
+                    <span>문의</span>
+                </div>
+                <div class="contact-open">
+                    <div class="contact" title="복사하기">
+                        <span>전화번호</span>
+                        <em class="colorOran">044-589-3110</em>
+                    </div>
+                    <div class="contact" title="복사하기">
+                        <span>이메일</span>
+                        <em class="colorOran">app@ninesoft.biz</em>
+                    </div>
+                </div>
+            </a>
+            <a href="#hero" class="floating-btn top"></a>
+        </div>
     </main>
     <footer id="footer">
         <div class="footer-wrap">
@@ -357,318 +393,8 @@
         </div>
     </footer>
 
-<!-- Swiper 최신 CDN -->
-<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
-<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-
-<script>
-    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-        anchor.addEventListener('click', function (e) {
-            e.preventDefault();
-
-            const target = document.querySelector(this.getAttribute('href'));
-            const offset = 6 * 16; // 12rem → px (rem은 기본 폰트 크기 16px 기준)
-            const targetPosition = target.getBoundingClientRect().top + window.pageYOffset - offset;
-
-            window.scrollTo({
-            top: targetPosition,
-            behavior: 'smooth'
-            });
-        });
-    });
-</script>
-<script>
-document.addEventListener('DOMContentLoaded', function () {
-    let isPlaying = true;
-
-    const heroSwiper = new Swiper('.heroSwiper', {
-        effect: 'fade',
-        fadeEffect: {
-            crossFade: true
-        },
-        loop: true,
-        speed: 800,
-        autoplay: {
-            delay: 3000,
-            disableOnInteraction: false,
-        },
-        navigation: {
-            nextEl: '.btn-next',
-            prevEl: '.btn-prev'
-        },
-        pagination: {
-            el: '.fraction',
-            type: 'fraction',
-            renderFraction: function (currentClass, totalClass) {
-                return `<span class="${currentClass}"></span> / <span class="${totalClass}"></span>`;
-            }
-        }
-    });
-
-    // autoplay 버튼 제어
-    const autoplayBtn = document.querySelector('.btn-autoplay');
-
-    autoplayBtn.addEventListener('click', function () {
-        if (isPlaying) {
-            heroSwiper.autoplay.stop();
-            autoplayBtn.classList.remove('pause');
-            autoplayBtn.classList.add('play');
-            autoplayBtn.setAttribute('aria-label', '자동재생시작');
-        } else {
-            heroSwiper.autoplay.start();
-            autoplayBtn.classList.remove('play');
-            autoplayBtn.classList.add('pause');
-            autoplayBtn.setAttribute('aria-label', '자동재생정지');
-        }
-        isPlaying = !isPlaying;
-    });
-});
-</script>
-
-
-<script>
-    // ISP 슬라이드 드래그 기능 (Transform 기반)
-    function initISPSlider() {
-        const contentWrap = document.querySelector('.isp-content-wrap');
-        const slide = document.querySelector('.isp-slide');
-        
-        if (!contentWrap || !slide) return;
-        
-        let isDown = false;
-        let startX;
-        let currentTranslate = 0;
-        let prevTranslate = 0;
-        let animationID = 0;
-        
-        // 슬라이드 최대 이동 거리 계산
-        function getMaxTranslate() {
-            const containerWidth = contentWrap.offsetWidth;
-            const slideWidth = slide.offsetWidth;
-            return Math.min(0, containerWidth - slideWidth);
-        }
-        
-        // Transform 적용
-        function setSliderPosition() {
-            slide.style.transform = `translateX(${currentTranslate}px)`;
-        }
-        
-        // 애니메이션 프레임
-        function animation() {
-            setSliderPosition();
-            if (isDown) requestAnimationFrame(animation);
-        }
-        
-        // 경계값 제한
-        function clampTranslate(translate) {
-            const maxTranslate = getMaxTranslate();
-            return Math.max(maxTranslate, Math.min(0, translate));
-        }
-        
-        // 마우스 이벤트
-        contentWrap.addEventListener('mousedown', (e) => {
-            isDown = true;
-            slide.classList.add('dragging');
-            contentWrap.style.cursor = 'grabbing';
-            startX = e.clientX;
-            prevTranslate = currentTranslate;
-            animationID = requestAnimationFrame(animation);
-            e.preventDefault();
-        });
-        
-        contentWrap.addEventListener('mouseleave', () => {
-            if (isDown) {
-                isDown = false;
-                slide.classList.remove('dragging');
-                contentWrap.style.cursor = 'grab';
-                cancelAnimationFrame(animationID);
-            }
-        });
-        
-        contentWrap.addEventListener('mouseup', () => {
-            isDown = false;
-            slide.classList.remove('dragging');
-            contentWrap.style.cursor = 'grab';
-            cancelAnimationFrame(animationID);
-        });
-        
-        contentWrap.addEventListener('mousemove', (e) => {
-            if (!isDown) return;
-            e.preventDefault();
-            const currentPosition = e.clientX;
-            const diff = currentPosition - startX;
-            currentTranslate = clampTranslate(prevTranslate + diff);
-        });
-        
-        // 터치 이벤트 (모바일 대응)
-        contentWrap.addEventListener('touchstart', (e) => {
-            isDown = true;
-            slide.classList.add('dragging');
-            startX = e.touches[0].clientX;
-            prevTranslate = currentTranslate;
-            animationID = requestAnimationFrame(animation);
-        });
-        
-        contentWrap.addEventListener('touchend', () => {
-            isDown = false;
-            slide.classList.remove('dragging');
-            cancelAnimationFrame(animationID);
-        });
-        
-        contentWrap.addEventListener('touchmove', (e) => {
-            if (!isDown) return;
-            e.preventDefault();
-            const currentPosition = e.touches[0].clientX;
-            const diff = currentPosition - startX;
-            currentTranslate = clampTranslate(prevTranslate + diff);
-        });
-        
-        // 윈도우 리사이즈 시 최대 이동거리 재계산
-        window.addEventListener('resize', () => {
-            currentTranslate = clampTranslate(currentTranslate);
-            setSliderPosition();
-        });
-        
-        // 초기 커서 설정
-        contentWrap.style.cursor = 'grab';
-    }
-
-    // 섹션3 배경 애니메이션
-    function initSection3Animation() {
-        const section3 = document.getElementById('section3');
-        
-        if (!section3) return;
-        
-        // CSS 초기 상태 설정 - 화면 밖에서 시작
-        const style = document.createElement('style');
-        style.textContent = `
-            #section3::after {
-                right: -89.7rem; /* 화면 밖에 숨김 */
-                transition: right 1.2s cubic-bezier(0.25, 0.46, 0.45, 0.94);
-                opacity: 0;
-            }
-            
-            #section3.animate::after {
-                right: 0; /* 원래 위치로 이동 */
-                opacity: 1;
-            }
-        `;
-        document.head.appendChild(style);
-        
-        // Intersection Observer 설정
-        const observer = new IntersectionObserver((entries) => {
-            entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                    // 섹션이 화면에 들어오면 애니메이션 시작
-                    section3.classList.add('animate');
-                }
-            });
-        }, {
-            threshold: 0.4, // 40% 보일 때 애니메이션 시작
-            rootMargin: '0px 0px -50px 0px' // 50px 일찍 트리거
-        });
-        
-        observer.observe(section3);
-    }
-
-    // DOM 로드 후 실행
-    document.addEventListener('DOMContentLoaded', function() {
-        initISPSlider();
-        initSection3Animation();
-    });
-
-    // 히스토리 아코디언 기능
-    $(function() {
-        // 1. 초기 상태: 2025만 열고 나머지는 닫기
-        $('.history-year').each(function() {
-            if ($(this).find('> a').text().trim() === '2025') {
-                $(this).addClass('open');
-                $(this).find('.history-month').show(); // 열기
-            } else {
-                $(this).removeClass('open');
-                $(this).find('.history-month').hide(); // 닫기
-            }
-        });
-
-        // 2. 클릭 이벤트 (slideUp/slideDown 방식)
-        $('.history-year > a').on('click', function(e) {
-            e.preventDefault();
-
-            const $clickedYear = $(this).parent();
-            const $clickedMonth = $clickedYear.find('.history-month');
-
-            if ($clickedYear.hasClass('open')) {
-                // 이미 열려있으면 닫기
-                $clickedMonth.stop(true, true).slideUp(300);
-                $clickedYear.removeClass('open');
-            } else {
-                // 다른 모든 항목 닫기
-                $('.history-year.open')
-                    .removeClass('open')
-                    .find('.history-month')
-                    .stop(true, true)
-                    .slideUp(300);
-
-                // 클릭한 항목 열기
-                $clickedYear.addClass('open');
-                $clickedMonth.stop(true, true).slideDown(300);
-            }
-        });
-    });
-</script>
-
-<script>
-    //파트너스 슬라이드
-    $(function () {
-        const $wrap = $('.partners-slide-wrap');
-        const $list = $wrap.find('.partners-slide');
-
-        // 1) 끊김 없는 루프를 위해 항목 복제 (전체를 2배로)
-        const originalHTML = $list.html();
-        const originalWidthBeforeClone = $list[0].scrollWidth; // 복제 전 너비
-        $list.append(originalHTML); // 뒤에 그대로 한번 더 붙임
-
-        // 2) 자동 흘림 설정
-        const SPEED = 0.6; // px/frame (원하는 속도로 조절)
-        let isDragging = false;
-        let paused = false; // hover/drag 시 일시정지
-        let startX = 0;
-        let startLeft = 0;
-
-        function loop() {
-            if (!paused && !isDragging) {
-            let sl = $wrap.scrollLeft() + SPEED;
-            // 절반(원본 길이)를 넘으면 앞쪽으로 점프 (무한루프)
-            if (sl >= originalWidthBeforeClone) sl -= originalWidthBeforeClone;
-            $wrap.scrollLeft(sl);
-            }
-            requestAnimationFrame(loop);
-        }
-        loop();
-    });
-</script>
-
-<script>
-    document.addEventListener('DOMContentLoaded', function () {
-        const solutionSwiper = new Swiper('.solutionSwiper', {
-            slidesPerView: 1,
-            spaceBetween: 20,
-            loop: true,
-            speed: 600,
-            navigation: {
-                nextEl: '.control-area .btn-next',
-                prevEl: '.control-area .btn-prev',
-            }
-        });
-
-        // 모바일용 버튼도 동작하게 연결
-        document.querySelectorAll('.mobile-controller .btn-next').forEach(btn => {
-            btn.addEventListener('click', () => solutionSwiper.slideNext());
-        });
-        document.querySelectorAll('.mobile-controller .btn-prev').forEach(btn => {
-            btn.addEventListener('click', () => solutionSwiper.slidePrev());
-        });
-    });
-</script>
-
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>
