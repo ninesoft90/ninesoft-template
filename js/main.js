@@ -7,7 +7,7 @@ $(function () {
         const target = $($(this).attr('href'));
         if (!target.length) return; // 대상 요소가 없으면 종료
 
-        const offset = 6 * 16; // 6rem → px (기본 폰트 크기 16px 기준)
+        const offset = 8 * 16; // 6rem → px (기본 폰트 크기 16px 기준)
         const targetPosition = target.offset().top - offset;
 
         $('html, body').animate({
@@ -325,7 +325,7 @@ $(function () {
      * ------------------------------ */
     const $floating = $('.floating-wrap');
     const $footer = $('footer');
-    const defaultBottom = 4.6 * 16; // rem → px
+    const defaultBottom = 4 * 10; // rem → px
 
     function updateFloating() {
         const winH = $(window).height();
