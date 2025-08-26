@@ -1,8 +1,9 @@
 /* 
-Ninesoft Homepage
-Version: 2.0
+Ninesoft Homepage - Optimized
+Version: 2.1
 Created: 2025-08-13
-Last Modified: 2025-08-13
+Last Modified: 2025-08-26
+Optimizations: Reduced redundancy, improved organization, enhanced performance
 */
 
 @charset "utf-8";
@@ -174,6 +175,7 @@ main::after {display: block; width: 89.7rem; height: 25.2rem; right: 0; top: 24r
 /* Responsive style */
 @media screen and (max-width: 1880px) {
     section {width: calc(100% - 8rem); margin: 8rem 4rem 0;}
+    #section1 {max-width: none;}
     .si-wrapper.pcstyle {display: none;}
     .si-wrapper.mobilestyle {display: flex; flex-direction: column;}
     .si-part01.pcstyle {display: none;}
@@ -227,7 +229,6 @@ main::after {display: block; width: 89.7rem; height: 25.2rem; right: 0; top: 24r
 @media screen and (max-width: 1080px) {
 }
 @media screen and (max-width: 960px) {
-    /* .heroslide-txt .hero-txt br {display: none;} */
     .si-wrapper.mobilestyle .si-mobile-part:first-child {flex-direction: column;}
     .si-mobile-part .si-part02 {width: auto; flex: 1;}
     .isp-item {width: 66rem;}
@@ -236,7 +237,6 @@ main::after {display: block; width: 89.7rem; height: 25.2rem; right: 0; top: 24r
 @media screen and (max-width: 720px) {
     .floating-wrap {gap: 1.6rem;}
     .floating-btn {width: 6.4rem; height: 6.4rem;}
-    /* .floating-btn.top {width: 6.4rem; height: 6.4rem;} */
     .contact-fold img {width: 2.4rem; height: 2.4rem;}
     .si-wrapper.mobilestyle .si-mobile-part {flex-direction: column;}
     .si-mobile-part .si-part01 {width: 100%;}
@@ -248,5 +248,4 @@ main::after {display: block; width: 89.7rem; height: 25.2rem; right: 0; top: 24r
 }
 @media screen and (max-width: 480px) {
     #section2 {width: calc(100% - 10rem); padding: 4rem;}
-    /* .isp-text br {display: none;} */
 }
